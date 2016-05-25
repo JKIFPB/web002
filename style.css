@@ -1,0 +1,47 @@
+body {
+    background-image:  url("imagem/bg2.jpg");
+}
+
+.title{
+    margin-top: 17%;
+    margin-left: 37%;
+    position:  absolute;
+    color:              #124500;
+    font-family:  cursive;
+
+}
+.subtitle{
+    margin-top: 22%;
+    margin-left: 42%;
+    position:  absolute;
+    color:         #124500;
+    font-family:  cursive;
+    text-align: center;
+}
+.button{
+    height:  50px;
+    width:   120px;
+    border-color: black;
+    background-color:#124500;
+    border-width:  2px;
+    border-radius : 5px;
+    margin-top:  29%;
+    margin-left:  45%;
+    position: fixed;
+}
+
+.litleText{
+    font-family: tahoma;
+    font-size:  30px;
+    color: white;
+    text-decoration: none;
+    position: fixed;
+}
+
+.description {
+    margin-bottom: 500%;
+    margin-left: 110%;
+    position:  absolute;
+    color:  #124500;
+    font-family:  tahoma;
+}
