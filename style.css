@@ -1,11 +1,19 @@
 body {
     background-image:  url("imagem/bg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .title{
-    margin-top: 17%;
+    /*margin-top: 17%;
     margin-left: 37%;
     position:  absolute;
+    */
+    position:fixed;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
     color:              #124500;
     font-family:  cursive;
 
@@ -13,7 +21,7 @@ body {
 .subtitle{
     margin-top: 22%;
     margin-left: 42%;
-    position:  absolute;
+    position:  fixed;
     color:         #124500;
     font-family:  cursive;
     text-align: center;
@@ -25,9 +33,12 @@ body {
     background-color:#124500;
     border-width:  2px;
     border-radius : 5px;
-    margin-top:  29%;
-    margin-left:  45%;
     position: fixed;
+    top: 70%;
+    left:  45%;
+    padding-top: 1%;
+    padding-left: 1%;
+
 }
 
 .litleText{
@@ -39,9 +50,9 @@ body {
 }
 
 .description {
-    margin-bottom: 500%;
-    margin-left: 110%;
-    position:  absolute;
+    margin-bottom: 00%;
+    margin-left: 10%;
+    position:  fixed;
     color:  #124500;
     font-family:  tahoma;
 }
